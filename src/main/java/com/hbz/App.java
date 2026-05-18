@@ -2,9 +2,8 @@ package com.hbz;
 
 import com.hbz.entitys.Instance;
 import com.hbz.entitys.Item;
-import com.hbz.entitys.SkyLine;
 import com.hbz.entitys.Solution;
-import com.hbz.model.SkyLinePacking;
+import com.hbz.model.skyline.SkyLinePacking;
 import com.hbz.util.ReadDataUtil;
 
 /**

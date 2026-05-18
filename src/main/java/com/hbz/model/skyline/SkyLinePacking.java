@@ -1,4 +1,4 @@
-package com.hbz.model;
+package com.hbz.model.skyline;
 
 import com.hbz.entitys.Item;
 import com.hbz.entitys.PlaceItem;
