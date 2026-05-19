@@ -12,6 +12,6 @@ public class Run {
         System.out.println("放置框宽:" + instance.getWidth()+" 放置框长:"+instance.getHeight()+" 是否允许旋转:"+instance.isRotateEnable());
         //instance.getItemsList().forEach(item -> System.out.println("宽"+item.getW()+"高"+item.getH()+"名字"+item.getName()));
         Item[] items = instance.getItemsList().toArray(new Item[instance.getItemsList().size()]);
-        new TabuSearch(200, 20, 10, instance, null).solve();
+        new TabuSearch(200, 50, 10, instance, null).solve();
     }
 }
